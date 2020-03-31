@@ -1,0 +1,30 @@
+/* .movie-card {
+  border: 2px solid black;
+  width: 220px;
+  height: 280px;
+  position: relative;
+  margin: 10px;
+} */
+.movie-rating {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0px;
+  border: 1px solid black;
+  border-top: none;
+  border-right: none;
+  background-color: white;
+}
+
+.movie-card {
+  border: 1px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+  margin: 5px;
+}
+img {
+  max-height: 250px;
+  background-size: cover;
+}
